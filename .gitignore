@@ -1,0 +1,12 @@
+output/
+*.csv
+*.txt
+.venv/
+venv/
+env/
+__pycache__/
+*.env
+*.ini
+config.py
+secrets.py
+*.json
