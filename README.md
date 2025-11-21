@@ -1,9 +1,9 @@
 # MyRecipe ETL & Analytics Project
 
-Name: Shalom Salve
-Batch: Data Engineer
-Email: salveshalom838@gmail.com
-Cell: +91 9172170311
+- Name: Shalom Salve
+- Batch: Data Engineer
+- Email: salveshalom838@gmail.com
+- Cell: +91 9172170311
 
 ##  Overview of the project
 
