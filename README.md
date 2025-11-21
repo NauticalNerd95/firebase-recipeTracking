@@ -38,6 +38,8 @@ This pipeline demonstrates how raw data from a live application can be:
 
 Firestore → Python ETL → CSV Files → Google Sheets → Looker Studio Dashboards
 
+Here is the directory strucuture for my project
+<img width="438" height="559" alt="image" src="https://github.com/user-attachments/assets/c41f9bde-6c41-4d2c-86f4-9ae924269b75" />
 
 ---
 
@@ -51,6 +53,7 @@ The ETL produces four structured datasets:
 | `ingredients.csv` | Each ingredient linked to a recipe |
 | `steps.csv` | Ordered cooking steps |
 | `interactions.csv` | Likes, ratings, and user engagement |
+| `users.csv` | Information about the users and their activity |
 
 ---
 
@@ -59,7 +62,7 @@ The ETL produces four structured datasets:
 ### 1️⃣ Extract – Firestore
 The system connects to Firebase Firestore using the service key JSON and retrieves recipe documents.
 
-📷 *(<img width="1361" height="643" alt="image" src="https://github.com/user-attachments/assets/ee25d62e-6fd4-4609-8797-698c2ecae09b" />)*
+📷 *<img width="1361" height="643" alt="image" src="https://github.com/user-attachments/assets/ee25d62e-6fd4-4609-8797-698c2ecae09b" />*
 
 ---
 
@@ -117,7 +120,6 @@ recipes.csv
 ingredients.csv
 steps.csv
 interactions.csv
-
 
 *<img width="369" height="133" alt="image" src="https://github.com/user-attachments/assets/1ee7c707-2f0b-4723-85ae-5e6bdf3d22c0" />*
 ---
@@ -185,7 +187,6 @@ google-api-python-client
 pandas
 uuid
 
-
 ### 🗄️ Permissions Needed
 
 - Read access to Firestore database
@@ -200,12 +201,6 @@ git clone https://github.com/
 <your-username>/<your-repo>.git
 cd <your-repo>
 
-
-### 2️⃣ Add Firebase key
-
-Place `serviceAccountKey.json` inside the project folder.
-
-📷 *(Insert screenshot of JSON in project folder)*
 
 ---
 
