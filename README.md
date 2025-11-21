@@ -295,11 +295,10 @@ This project demonstrates **real Data Engineering skills**, including:
 
 ##  Future Improvements
 
-- Schedule automated ETL using Prefect or Airflow  
-- Migrate storage to BigQuery  
-- Implement dbt transformations  
+- Can schedule automated ETL using Prefect in the future  
+- Migrate storage to BigQuery for faster storage + analytics 
+- Can use MySQL storage option if router gets enabled  
 - Add CI/CD pipeline  
-- Deploy Looker dashboards publicly
 ---
 
 ##  Author
