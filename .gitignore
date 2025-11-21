@@ -9,4 +9,7 @@ __pycache__/
 *.ini
 config.py
 secrets.py
+
+
+
 *.json
