@@ -6,7 +6,6 @@ from data_creation.intialize_data import db
 COLLECTIONS = ["recipes", "users", "interactions"]
 
 def extract_data(collection_name):
-    """E: Fetches all documents from a specified Firestore collection."""
     if db is None:
         print(f" DB connection failed. Cannot extract data from {collection_name}.")
         return []
