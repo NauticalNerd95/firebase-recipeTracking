@@ -152,7 +152,11 @@ Dashboards include:
 - **Most common ingredients**
 - **Recipe engagement analysis**
 
+Content Quality and Performance
  <img width="1357" height="633" alt="image" src="https://github.com/user-attachments/assets/fa0682bf-4667-4e9a-a6c7-e5c0b3b5de3a" />
+
+User Interaction Insights
+<img width="1166" height="594" alt="image" src="https://github.com/user-attachments/assets/495445da-efe1-48fb-b301-9628ff623acd" />
 
 ---
 
@@ -206,6 +210,8 @@ git clone https://github.com/
 <your-username>/<your-repo>.git
 cd <your-repo>
 
+Full analytics dashboard at:
+https://lookerstudio.google.com/reporting/7245bb10-cf0c-4c89-9299-b2e8b6e1156b
 
 ---
 
