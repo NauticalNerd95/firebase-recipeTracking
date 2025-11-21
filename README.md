@@ -19,7 +19,7 @@ This pipeline demonstrates how raw data from a live application can be:
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 
 - Collect user recipe submissions (name, ingredients, prep time, steps, etc.) from Firestore  
 - Convert Firestore recipe objects into structured CSV format  
@@ -34,7 +34,7 @@ This pipeline demonstrates how raw data from a live application can be:
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 Firestore → Python ETL → CSV Files → Google Sheets → Looker Studio Dashboards
 
@@ -57,7 +57,7 @@ The ETL produces four structured datasets:
 
 ---
 
-## 🏗️ How the Pipeline Works
+##  How the Pipeline Works
 
 ### 1️⃣ Extract – Firestore
 The system connects to Firebase Firestore using the service key JSON and retrieves recipe documents.
@@ -132,8 +132,8 @@ Using the Google Sheets API:
 - Each file becomes a worksheet  
 - Data replaces previous records cleanly
 
-*<img width="1286" height="640" alt="image" src="https://github.com/user-attachments/assets/642426a2-415e-4756-8cc2-584b82be55b5" />
-*
+<img width="1286" height="640" alt="image" src="https://github.com/user-attachments/assets/642426a2-415e-4756-8cc2-584b82be55b5" />
+
 ---
 
 ### 5️⃣ Visualization in Looker Studio
@@ -147,8 +147,8 @@ Dashboards include:
 - **Most common ingredients**
 - **Recipe engagement analysis**
 
- *<img width="1357" height="633" alt="image" src="https://github.com/user-attachments/assets/fa0682bf-4667-4e9a-a6c7-e5c0b3b5de3a" />
-*
+ <img width="1357" height="633" alt="image" src="https://github.com/user-attachments/assets/fa0682bf-4667-4e9a-a6c7-e5c0b3b5de3a" />
+
 ---
 
 ## 📊 Example Insights
@@ -164,11 +164,11 @@ Dashboards include:
 
 Below is the conceptual ERD of the MyRecipe Data Warehouse:
 
-📷 *<img width="530" height="427" alt="image" src="https://github.com/user-attachments/assets/38a3fa03-1d7a-405f-9f0b-dec4a88b148c" />
-*
+ <img width="530" height="427" alt="image" src="https://github.com/user-attachments/assets/38a3fa03-1d7a-405f-9f0b-dec4a88b148c" />
+
 ---
 
-## 🚀 Requirements
+##  Requirements
 
 ### 🔧 Technical Requirements
 
@@ -178,7 +178,7 @@ Below is the conceptual ERD of the MyRecipe Data Warehouse:
 - Google Cloud project with Sheets API enabled
 - Google OAuth credentials for Sheets access
 
-### 📦 Python Dependencies
+###  Python Dependencies
 
 firebase-admin
 google-auth
@@ -187,7 +187,7 @@ google-api-python-client
 pandas
 uuid
 
-### 🗄️ Permissions Needed
+###  Permissions Needed
 
 - Read access to Firestore database
 - Write access to Google Sheets
@@ -228,7 +228,7 @@ This will:
 
 ---
 
-### 6️⃣ Connect Looker Studio
+###  Connect Looker Studio
 
 Looker Studio → Create → Data Source → Google Sheets → Select uploaded file
 
@@ -241,7 +241,7 @@ Then create reports with charts such as:
 
 ---
 
-## 🧪 Data Validation Steps
+##  Data Validation Steps
 
 The pipeline performs:
 
@@ -253,7 +253,7 @@ The pipeline performs:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 /
 |-- etl.py
@@ -269,7 +269,7 @@ The pipeline performs:
 
 ---
 
-## 🥇 Why This Project Matters
+##  Why This Project Matters
 
 This project demonstrates **real Data Engineering skills**, including:
 
@@ -282,7 +282,7 @@ This project demonstrates **real Data Engineering skills**, including:
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - Schedule automated ETL using Prefect or Airflow  
 - Migrate storage to BigQuery  
@@ -291,12 +291,8 @@ This project demonstrates **real Data Engineering skills**, including:
 - Deploy Looker dashboards publicly
 ---
 
-## 🙌 Author
+##  Author
 
 **Shalom Salve**  
 Apprentice Data Engineer (thinkbridge)
 ---
-
-## If You Like This Project
-
-Please ⭐ the repository on GitHub. It helps a lot!
