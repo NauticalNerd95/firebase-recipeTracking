@@ -1,5 +1,10 @@
 # MyRecipe ETL & Analytics Project
 
+Name: Shalom Salve
+Batch: Data Engineer
+Email: salveshalom838@gmail.com
+Cell: +91 9172170311
+
 ##  Overview of the project
 
 This project is a complete **end-to-end ETL (Extract–Transform–Load) Data Engineering Pipeline** for analyzing user recipes. It takes data created by users in a Firebase Firestore backend and moves it across:
