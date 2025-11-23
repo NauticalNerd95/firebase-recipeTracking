@@ -3,8 +3,7 @@
 - Name: Shalom Salve
 - Batch: Data Engineer
 - Email: salveshalom838@gmail.com
-- Cell: +91 9172170311
-
+- 
 ##  Overview of the project
 
 This project is a complete **end-to-end ETL (Extract–Transform–Load) Data Engineering Pipeline** for analyzing user recipes. It takes data created by users in a Firebase Firestore backend and moves it across:
@@ -215,10 +214,6 @@ https://lookerstudio.google.com/reporting/7245bb10-cf0c-4c89-9299-b2e8b6e1156b
 
 ---
 
-### 3️⃣ Install dependencies
-pip install -r requirements.txt
----
-
 ### 4️⃣ Enable Google Sheets API
 
 Go to:
@@ -261,22 +256,6 @@ The pipeline performs:
 - Duplicate avoidance  
 - Referential integrity checks  
 - UUID assignment for primary keys
-
----
-
-##  Project Structure
-
-/
-|-- etl.py
-|-- serviceAccountKey.json
-|-- credentials.json
-|-- data/
-| |-- recipes.csv
-| |-- ingredients.csv
-| |-- steps.csv
-| |-- interactions.csv
-|-- README.md
-
 
 ---
 
